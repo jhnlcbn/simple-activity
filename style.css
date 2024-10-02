@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 50px;
+    padding-top: 70px;
+    height: 100vh;
+    text-align:justify ;
+    line-height: 1.5;
+}
+
+/*nav menu*/
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    gap: 35px;
+    background-color: rgb(86, 99, 99);
+}
+nav a {
+    text-decoration: none;
+    color: rgb(7, 250, 108);
+    font-size: 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: wavy;
+    color: rgb(255, 51, 0);
+}
+
+h1, h2 {
+    color: rgb(2, 109, 248);
+}
+
+.container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-top: 20px;
+}
+.blue {
+    color: rgb(2, 109, 248);
+}
+.red {
+    color: red;
+}
+
+.table {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(180, 175, 175);
+}
+
+.column1 {
+    text-align: center;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(255, 8, 0, 0.993);
+    border-bottom: 1px solid white;
+}
+
+.column2 {
+    padding: 10px;
+    border: 1px solid rgb(180, 175, 175);
+}
+
+img {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.byod-left {
+    line-height: 220%;
+}
+
+.byod-right {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.iot-img{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+}
+.req-container {
+   display: grid;
+   grid-template-columns: repeat(2, 2fr);
+   justify-content: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.req-left img { 
+    width: 90%;
+    height: 100vh;
+}
+.req-right {
+    line-height: 1.50;
+    width: 50em;
+}
+.req-ul {
+    margin-left: 2%;
+}
+.lost-right{
+    margin-top: 5%;
+    padding-top: 0;
+}
+.lost-img {
+    margin-top: 20px;
+    width: 100%;
+    height: 90vh;
+}
+.mitma-left {
+    line-height: 190%;
+}
+.mitma-right{
+   margin-top: 2%;
+   padding-top: 0;
+}
+.osilayer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.osi {
+    color: white;
+    border: 3px solid red;
+    background-color: red;
+}
+.osi2 {
+    font-weight: bolder;
+    font-style: oblique;
+}

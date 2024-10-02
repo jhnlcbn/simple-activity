@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man in the Middle Attack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Malware</a>
+        <a href="byod.html">BYOD</a>
+        <a href="phishing.html">Phishing/Social Engineering</a>
+        <a href="iot.html">IoT Security</a>
+        <a href="requires.html">Requires More Mobile Security</a>
+        <a href="loststolen.html">Lost or Stolen Devices</a>
+        <a href="mitma.html">Man in the Middle Attack</a>
+        <a href="osi.html">OSI Layer & Security Attacks</a>
+    </nav>
+    <div class="container">
+        <div class="mitma-left">
+        <h1>MAN IN THE MIDDLE ATTACK</h1>
+        <p>A main function of any mobile device is communications. But not all mobile communications are secure and private. A man-in-the-middle (MITM) attack can listen in, or even alter the traffic going to and from a mobile device. The most common way for this to happen is over public, unsecured WiFI networks.</p>
+
+        <p>There are <span class="red">hundreds of millions of WiFi networks around the world </span>of which <span class="red">almost 1/3 are either unsecured or poorly secured.</span> It is easy for a cyber criminal to setup a fake WiFi hotspot (honeypot), then intercept and manipulate the stream of data. Even the most secure WiFi network is attackable. in late 2017, there was a lot of buzz about <span class="red">KRACK (Key Reinstallation Attack)</span> which exploited a serious weakness in the WPA2 protocol used to secure WiFi networks. KRACK could be used to steal usernames, passwords and other sensitive corporate content.</p>
+
+        <p>Other network types are equally at risk. <span class="red">Cyber criminals (and law enforcement) can use fake cellphone towers (aka stingrays)</span> to spoof 2G/3G/4G connections. In addition, most modern mobile devices running Android, IOS, Linux and Windows can be<span class="red">attacked through Bluetooth,</span> In both situations, the device data stream is compromised and malware can be introduced.</p>
+    </div>
+
+        <div class="mitma-right">
+            <h2>PREVENTION / MITIGATION</h2>
+            <table class="table">
+                <tr>
+                    <td class="column1">Whitelist WiFi Access Points</td>
+                    <td class="column2">Pre-configure devices with approved WiFi access points and restrict the device user from creating new WiFi connections or modifying existing WiFi connections, effectively creating a white list/safe list of WiFi access points to which the device can connect. Each WiFi configuration in the white list will be configured to ensure compliance with corporate encryptions and security standards.</td>
+                </tr>
+                <tr>
+                    <td class="column1">Disable Bluetooth Pairing</td>
+                    <td class="column2">Mitigate Bluetooth vulnerabilities by temporarily disabling Bluetooth communications.</td>
+                </tr>
+                <tr>
+                    <td class="column1">Disable Access to Websites with Invalid SSL/TLS Certificates</td>
+                    <td class="column2">Prevent MITM attacks by using an EMM secure browser to avoid connecting to sites with certificates that are untrusted, expired or do not match the site name.</td>
+                </tr>
+                <tr>
+                    <td class="column1">Configure and Enforce VPN/ per-app VPN</td>
+                    <td class="column2">Configure and enforce VPN and/or per-app VPN connectivity to secure communication even over insecure/ compromised networks.</td>
+                </tr>
+        </table>
+        
+    </div>
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSI Layer & Security Attacks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Malware</a>
+        <a href="byod.html">BYOD</a>
+        <a href="phishing.html">Phishing/Social Engineering</a>
+        <a href="iot.html">IoT Security</a>
+        <a href="requires.html">Requires More Mobile Security</a>
+        <a href="loststolen.html">Lost or Stolen Devices</a>
+        <a href="mitma.html">Man in the Middle Attack</a>
+        <a href="osi.html">OSI Layer & Security Attacks</a>
+    </nav>
+    
+    <div class="osilayer">
+    <h3><span class="osi">OSI LAYER</span> & SECURITY ATTACKS</h3>
+    <P>What is OSI Layer Model? The OSI (Open Systems Interconnection) model defines network functionality. It categorizes computing functions across 7 layers, ensuring seamless software and hardware connection.</P>
+
+    <h4><br>Layer 1: Physical</h4>
+    <p>The Physical Layer ensures network node connectivity through wired or wireless means.</p>
+
+    <p><br><span class="osi">Attack:</span> Sniffing Attack</p>
+    <p>In the Physical Layer, a sniffing attack involves attackers capturing and analyzing network traffic to acquire sensitive information such as login credentials, credit card numbers, and personal data.</p>
+
+    <h4><br>Layer 2: Data Link</h4>
+    <p>The Data Link Layer manages communication between connected network nodes, breaking data into frames for transmission.</p>
+
+    <p><br><span class="osi">Attack:</span> Spoofing Attack</p>
+    <p>In spoofing attacks, attackers change a device's MAC address to impersonate another, gaining network access and intercepting traffic. Methods include ARP spoofing, DHCP spoofing, and MAC flooding.</p>
+
+    <h4><br>Layer 3: Network</h4>
+    <p>The Network Layer has two main functions: segmenting data into network packets and routing these packets through the physical network.</p>
+
+    <p><br><span class="osi">Attack:</span> Man-in-the-Middle Attack</p>
+    <p>In the Network Layer, a "Man-in-the-Middle (MITM) Attack" occurs when attackers intercept and alter communication secretly. Using techniques like ARP spoofing and redirecting packets to their device instead of the intended source.</p>
+
+    <h4><br>Layer 4: Transport</h4>
+    <p>The Transport Layer manages data flow and error control, adjusting data transmission to match the receiving device's speed.</p>
+
+    <p><br><span class="osi">Attack:</span> Reconnaissance</p>
+    <p>Reconnaissance in the Transport Layer is an attacker's attempt to gather information by probing transport layer protocols (TCP or UDP). Techniques include port scanning to find open vulnerable ports and using pocket sniffers to monitor and extract data from network traffic.</p>
+
+    <h4><br>Layer 5: Session</h4>
+    <p>The Session Layer manages communication sessions between devices, ensuring their efficiency during data transfer and closure upon completion.</p>
+
+    <p><br><span class="osi">Attack:</span> Hijacking</p>
+    <p>Session hijacking in the Session Layer occurs when attackers intercept and control sessions, exploiting vulnerabilities or manipulating traffic. There are 2 types of session hijacking:</p>
+
+    <p><span class="osi2">Active:</span> Attackers alter traffic during session. <br>
+        <span class="osi2">Passive:</span> Attackers monitor and take over sessions after user login by watching traffic.</p>
+    
+
+    <h4><br>Layer 6: Presentation</h4>
+    <p>Responsible for encoding, encryption, and compression methods for data exchange, the Presentation Layers transforms data from the Application Layer.</p>
+
+    <p><br><span class="osi">Attack:</span> Phishing Attack</p>
+    <p>Phishing at the Presentation Layers involves using social engineering tactics to trick people into disclosing sensitive information or clicking on malicious links. Attackers create fake emails or websites, appearing legitimate, to steal login details and credit card information or install malicious malware on victims' systems.</p>
+
+    <h4><br>Layer 7: Application</h4>
+    <p>The Application Layer is closest to users and facilitates communication with individual applications.</p>
+
+    <p><br><span class="osi">Attack:</span> Exploit</p>
+    <p>In the Application Layer, "Exploit" attacks target software vulnerabilities for unauthorized access or malicious actions. It leads to DoS or DDoS attacks, causing disruptions to websites and critical systems.</p>
+
+</div>
+</body>
+</html>
